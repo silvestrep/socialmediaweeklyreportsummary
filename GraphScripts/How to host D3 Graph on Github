@@ -1,0 +1,33 @@
+How to create a new repository and modify the repository 
+
+1 - Create the repository on github and add files 
+
+Go to github website and create new repository 
+create a folder in your local Mac with the same name then : 
+
+cd /Users/joaopimenta/documents/joaopython/githubscripts/SocialMediaGraphsVis
+git init 
+git remote add origin https://github.com/silvestrep/SocialMediaGraphsVis.git
+git add .
+git commit -m "first commit from terminal"
+git push origin master
+
+Conclusion: You now have linked your github repository to your local folder and uploaded the files from your folder to github
+
+2 - Go to  your repository Settings -> Github Pages -> master branch -> Save (This will generate your webpage)
+
+3 - Now how to modify and add files to an existing repository 
+
+cd /Users/joaopimenta/documents/joaopython/githubscripts/SocialMediaGraphs
+git status 
+git add .
+git add -u
+git commit -m "first commit from terminal"
+git push origin master
+git log
+
+NOTE: 
+
+DO NOT EDIT MANUALLY ON GITHUB, MAKE CHANGES LOCALLY AND THEN COMMIT TO GITHUB VIA TERMINAL
+
+GOOD DOCUMENTATION WITH DESCRIPTION ON POPULAR GITHUB CODES: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
