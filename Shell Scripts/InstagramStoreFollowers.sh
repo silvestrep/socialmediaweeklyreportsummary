@@ -1,0 +1,2 @@
+python /Users/joaopimenta/documents/joaopython/instagramscripts/prodscripts/instagram_followers_dry_token_multiple_users_NEWEXCEL.py
+
